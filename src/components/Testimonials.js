@@ -1,40 +1,50 @@
 import React from "react";
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { testimonials } from "../data";
+import { timelineElements } from "../data";
+import "./testimonial.css";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+
+import "react-vertical-timeline-component/style.min.css";
 
 export default function Testimonials() {
+  let workIconStyles = { background: "#06D6A0" };
+  let schoolIconStyles = { background: "#f9c74f" };
   return (
     <section id="testimonials">
       <div className="container px-5 py-10 mx-auto text-center">
-        <UsersIcon className="w-10 inline-block mb-4" />
-        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
-          Client Testimonials
-        </h1>
-        <div className="flex flex-wrap m-4">
-          {testimonials.map((testimonial) => (
-            <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-                <TerminalIcon className="block w-8 text-gray-500 mb-4" />
-                <p className="leading-relaxed mb-6">{testimonial.quote}</p>
-                <div className="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src={testimonial.image}
-                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
-                      {testimonial.name}
-                    </span>
-                    <span className="text-gray-500 text-sm uppercase">
-                      {testimonial.company}
-                    </span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+            Experience
+          </h1>
+      <VerticalTimeline>
+        {timelineElements.map((element) => {
+          let isWorkIcon = element.icon === "work";
+          let showButton =
+            element.buttonText !== undefined &&
+            element.buttonText !== null &&
+            element.buttonText !== "";
+
+          return (
+            <VerticalTimelineElement
+              key={element.key}
+              date={element.date}
+              dateClassName="date"
+              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+            >
+              <h3 className="vertical-timeline-element-title">
+                {element.title}
+              </h3>
+              <h5 className="vertical-timeline-element-subtitle">
+                {element.location}
+              </h5>
+              <p id="description">{element.description}</p>
+            </VerticalTimelineElement>
+          );
+        })}
+      </VerticalTimeline>
       </div>
     </section>
   );

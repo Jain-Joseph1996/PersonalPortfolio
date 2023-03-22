@@ -1,35 +1,39 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Fabulous Merch Store",
+    subtitle: "JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Online shopping website that sells merchandise created using HTML, CSS, Bootstrap, and jQuery",
+    image: "./fabulousmerch.png",
+    gitlink: "https://github.com/Jain-Joseph1996/FabulousMerchStore",
+    sitelink:"https://jain-joseph1996.github.io/FabulousMerchStore/"
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Visual Effects Services",
+    subtitle: "Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Django Framework with model-template-view architectural pattern is used with SQLite as DB.",
+    image: "./outsourceservices.png",
+    gitlink: "https://github.com/Jain-Joseph1996/Visualeffectsservices-using-Django",
+    sitelink:"https://outsourceservice.herokuapp.com/"
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Local Bike Rental",
+    subtitle: "JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Local Bike rental website used for renting out local bikes is created using HTML, CSS, Bootstrap, and JavaScript.",
+    image: "./localbikerentals.png",
+    gitlink: "https://github.com/Jain-Joseph1996/LocalBikeRentalWebsite",
+    sitelink:"https://jain-joseph1996.github.io/LocalBikeRentalWebsite/"
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Visual Effects Services",
+    subtitle: "Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Python's standard library Tkinter is used for creating graphical user interface with MySQL as the database.",
+    image: "./tkinterproject.png",
+    gitlink: "https://reactbootcamp.com",
+    sitelink:"https://github.com/Jain-Joseph1996/VisualEffectsServices-using-Tkinter"
   },
 ];
 
@@ -51,10 +55,59 @@ export const testimonials = [
 ];
 
 export const skills = [
+  "HTML",
+  "CSS",
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "NodeJS",
+  "Express",
+  "MongoDB",
+  "RESTful API",
+  "Python",
+  "SQL",
+  "Azure DevOps"
+];
+
+export const timelineElements = [
+  {
+    id: 1,
+    title: "EY Global Delivery Services ",
+    location: "Senior Software Engineer",
+    description:
+      [
+      "Developed microsites using a single framework which was developed as a custom web part in SharePoint using SPFx with React and TypeScript.",
+      "Deployed the solution in several subsites, each with its data and resources stored in SharePoint lists, and maintained a Continuous\
+      Integration/Continuous Deployment pipeline for automatic and frequent code deployment.",
+      ],
+    date: "March 2020 – December 2021",
+    icon: "work",
+  },
+  {
+    id: 2,
+    title: "Joules To Watts Business Solutions Pvt Ltd",
+    location: "SharePoint Developer ",
+    description:
+    [
+    "Developed a fully automated system to perform operations like Bulk data upload from excel to SharePoint lists, deletion\
+    from SharePoint lists, and updating of SharePoint lists from excel at the click of a button. ",
+    "Automated the tasks using Power Automate (o365 tool) and Admin Centre was set up using Power Apps (o365 tool) and \
+    reduced the cost of manual operations by 50% through automation.",
+    ],
+    date: "October 2019 – March 2020",
+    icon: "work",
+  },
+  {
+    id: 3,
+    title: "EY Global Delivery Services ",
+    location: "Software Engineer/ SharePoint Developer ",
+    description:
+    [
+      "Developed a recruitment approval tool using HTML, CSS, Bootstrap, and JavaScript and performed the CRUD operations \
+      against storage entities using REST APIs with JSON format for data exchange.",
+      "Collaborated with team members to identify and resolve bugs, and cross-browser compatibility issues, and implement agile \
+      delivery (DevOps) pipelines."
+    ],
+    date: "August 2018 - October 2019",
+    icon: "work",
+  }
 ];

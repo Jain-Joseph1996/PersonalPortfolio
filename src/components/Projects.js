@@ -1,6 +1,26 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+import { FaExternalLinkAlt , FaGithub  } from 'react-icons/fa';
+import { SocialIcon } from 'react-social-icons';
+
+
+function ExternalLink({ href, children }) {
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      {children}
+      <FaExternalLinkAlt />
+    </a>
+  );
+}
+
+function GitHubLink(href) {
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      <FaGithub />
+    </a>
+  );
+}
 
 export default function Projects() {
   return (
@@ -9,13 +29,13 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
@@ -37,6 +57,11 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed">Use the below links to git hub and the web site</p>
+                  <div className="flex items-center justify-center space-x-6 py-1">
+                  <GitHubLink className="text-2xl" href={project.gitlink}/>
+                  <ExternalLink href={project.sitelink}></ExternalLink>
+                  </div>
                 </div>
               </div>
             </a>
