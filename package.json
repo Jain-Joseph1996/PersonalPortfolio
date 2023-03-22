@@ -10,6 +10,8 @@
     "@heroicons/react": "^1.0.1",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.13",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.8.0",
@@ -21,7 +23,7 @@
     "start": "craco start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "craco build",
+    "build": "babel src -d lib",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
