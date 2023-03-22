@@ -16,10 +16,25 @@ export default function Testimonials() {
   return (
     <section id="testimonials">
       <div className="container px-5 py-10 mx-auto text-center">
-      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Experience
-          </h1>
-      <VerticalTimeline>
+        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          Experience
+        </h1>
+        {/* <Timeline position="alternate">
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot color="secondary" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>Secondary</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot color="success" />
+            </TimelineSeparator>
+            <TimelineContent>Success</TimelineContent>
+          </TimelineItem>
+        </Timeline> */}
+        <VerticalTimeline>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === "work";
           let showButton =
