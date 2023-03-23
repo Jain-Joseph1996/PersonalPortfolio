@@ -11,8 +11,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 export default function Testimonials() {
-  let workIconStyles = { background: "#06D6A0" };
-  let schoolIconStyles = { background: "#f9c74f" };
+  let workIconStyles = { background: "#4b0082" };
+  let schoolIconStyles = { background: "#4b0082" };
   return (
     <section id="testimonials">
       <div className="container px-5 py-10 mx-auto text-center">
