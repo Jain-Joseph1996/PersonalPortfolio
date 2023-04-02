@@ -23,6 +23,9 @@ export default function Navbar() {
           <a href="#contact" className="mr-5 hover:text-white">
           Contact Me
           </a>
+          <a href="https://pdfhost.io/v/IiBfq57u2_Jain_Resume" className="mr-5 hover:text-white">
+          Resume
+          </a>
         </nav>
       </div>
     </header>
