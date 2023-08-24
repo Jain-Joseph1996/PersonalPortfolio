@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "MERN Stack",
     description:
       "A hospital management tool where patients can meet with the doctors virtually. The project is developed using MongoDB, Express, React and Node.js.",
-    image: "./healthmatic.png",
+    image: "./hvc.png",
     gitlink: "https://github.com/Jain-Joseph1996/HealthMaticVirtualClinic",
     sitelink:"https://healthmaticvirtualclinic.netlify.app"
   },
