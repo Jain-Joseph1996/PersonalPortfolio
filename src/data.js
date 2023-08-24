@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Healthmatic Virtual Clinic",
+    subtitle: "MERN Stack",
+    description:
+      "A hospital management tool where patients can meet with the doctors virtually. The project is developed using MongoDB, Express, React and Node.js.",
+    image: "./healthmatic.png",
+    gitlink: "https://github.com/Jain-Joseph1996/HealthMaticVirtualClinic",
+    sitelink:"https://healthmaticvirtualclinic.netlify.app"
+  },
+  {
     title: "Fabulous Merch Store",
     subtitle: "JavaScript",
     description:
@@ -26,15 +35,15 @@ export const projects = [
     gitlink: "https://github.com/Jain-Joseph1996/LocalBikeRentalWebsite",
     sitelink:"https://jain-joseph1996.github.io/LocalBikeRentalWebsite/"
   },
-  {
-    title: "Visual Effects Services",
-    subtitle: "Python",
-    description:
-      "Python's standard library Tkinter is used for creating graphical user interface with MySQL as the database.",
-    image: "./tkinterproject.png",
-    gitlink: "https://reactbootcamp.com",
-    sitelink:"https://github.com/Jain-Joseph1996/VisualEffectsServices-using-Tkinter"
-  },
+  // {
+  //   title: "Visual Effects Services",
+  //   subtitle: "Python",
+  //   description:
+  //     "Python's standard library Tkinter is used for creating graphical user interface with MySQL as the database.",
+  //   image: "./tkinterproject.png",
+  //   gitlink: "https://reactbootcamp.com",
+  //   sitelink:"https://github.com/Jain-Joseph1996/VisualEffectsServices-using-Tkinter"
+  // },
 ];
 
 export const testimonials = [
