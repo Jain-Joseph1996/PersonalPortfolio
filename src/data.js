@@ -41,7 +41,7 @@ export const projects = [
     description:
       "Django Framework with model-template-view architectural pattern is used with SQLite as DB.",
     image: "./outsourceservices.png",
-    gitlink: "https://github.com/Jain-Joseph1996/Visualeffectsservices-using-Django",
+    gitlink: "https://github.com/Jain-Joseph1996/VisualeffectsservicesusingDjango",
     sitelink:"https://outsourceservice.herokuapp.com/"
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     description:
       "Python's standard library Tkinter is used for creating graphical user interface with MySQL as the database.",
     image: "./tkinterproject.png",
-    gitlink: "https://github.com/Jain-Joseph1996/VisualEffectsServices-using-Tkinter",
+    gitlink: "https://github.com/Jain-Joseph1996/VisualEffectsServicesusingTkinter",
     sitelink:""
   },
 ];
