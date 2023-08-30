@@ -44,15 +44,15 @@ export const projects = [
     gitlink: "https://github.com/Jain-Joseph1996/LocalBikeRentalWebsite",
     sitelink:"https://jain-joseph1996.github.io/LocalBikeRentalWebsite/"
   },
-  // {
-  //   title: "Visual Effects Services",
-  //   subtitle: "Python",
-  //   description:
-  //     "Python's standard library Tkinter is used for creating graphical user interface with MySQL as the database.",
-  //   image: "./tkinterproject.png",
-  //   gitlink: "https://reactbootcamp.com",
-  //   sitelink:"https://github.com/Jain-Joseph1996/VisualEffectsServices-using-Tkinter"
-  // },
+  {
+    title: "Visual Effects Services",
+    subtitle: "Python",
+    description:
+      "Python's standard library Tkinter is used for creating graphical user interface with MySQL as the database.",
+    image: "./tkinterproject.png",
+    gitlink: "https://github.com/Jain-Joseph1996/VisualEffectsServices-using-Tkinter",
+    sitelink:""
+  },
 ];
 
 export const testimonials = [
