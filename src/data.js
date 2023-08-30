@@ -10,6 +10,15 @@ export const projects = [
   },
   {
     title: "Fabulous Merch Store",
+    subtitle: "MERN Stack",
+    description:
+      "A e-commerce website where the users can purchase items online. The project is developed using MongoDB, Express, React and Node.js.",
+    image: "./hvc.png",
+    gitlink: "https://github.com/Jain-Joseph1996/fabulousMerchStore_MERN",
+    sitelink:"https://fabulousmerchstore.netlify.app"
+  },
+  {
+    title: "Fabulous Merch Store",
     subtitle: "JavaScript",
     description:
       "Online shopping website that sells merchandise created using HTML, CSS, Bootstrap, and jQuery",
