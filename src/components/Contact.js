@@ -26,8 +26,11 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
+       <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
+          Contact Me
+        </h1>
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative" style={{width:"100%"}}>
           <iframe
             width="100%"
             height="100%"
@@ -39,7 +42,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Toronto&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-8 px-6 mt-4 lg:mt-0 rounded shadow-md">
+          <div className="bg-gray-900 relative flex flex-wrap py-8 px-6 mt-4 lg:mt-0 rounded shadow-md" style={{width:"100%"}}>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -52,7 +55,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-indigo-400 leading-relaxed" href="mailto:jainjosephmuttar@gmail.com">
                 jainjosephmuttar@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">

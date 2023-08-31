@@ -11,12 +11,12 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 export default function Testimonials() {
-  let workIconStyles = { background: "#4b0082"};
+  let workIconStyles = { background: "#4b0082" };
   let schoolIconStyles = { background: "#4b0082" };
   return (
     <section id="testimonials">
-      <div className="container px-5 py-10 mx-auto text-center">
-        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+      <div className="container px-5 py-10 mx-auto">
+        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
           Experience
         </h1>
         {/* <Timeline position="alternate">
@@ -35,31 +35,37 @@ export default function Testimonials() {
           </TimelineItem>
         </Timeline> */}
         <VerticalTimeline>
-        {timelineElements.map((element) => {
-          let isWorkIcon = element.icon === "work";
-          let showButton =
-            element.buttonText !== undefined &&
-            element.buttonText !== null &&
-            element.buttonText !== "";
+          {timelineElements.map((element) => {
+            let isWorkIcon = element.icon === "work";
+            let showButton =
+              element.buttonText !== undefined &&
+              element.buttonText !== null &&
+              element.buttonText !== "";
 
-          return (
-            <VerticalTimelineElement
-              key={element.key}
-              date={element.date}
-              dateClassName="date"
-              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-            >
-              <h3 className="vertical-timeline-element-title">
-                {element.title}
-              </h3>
-              <h5 className="vertical-timeline-element-subtitle">
-                {element.location}
-              </h5>
-              <p id="description">{element.description}</p>
-            </VerticalTimelineElement>
-          );
-        })}
-      </VerticalTimeline>
+            return (
+              <VerticalTimelineElement
+                key={element.key}
+                date={element.date}
+                dateClassName="date"
+                iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  {element.title}
+                </h3>
+                <h5 className="vertical-timeline-element-subtitle">
+                  {element.location}
+                </h5>
+                <div id="description">
+                  <ul>
+                    {element.description.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </VerticalTimelineElement>
+            );
+          })}
+        </VerticalTimeline>
       </div>
     </section>
   );

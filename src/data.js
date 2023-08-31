@@ -93,25 +93,27 @@ export const timelineElements = [
     location: "Senior Software Engineer",
     description:
       [
-      "Developed microsites using a single framework which was developed as a custom web part in SharePoint using SPFx with React and TypeScript.",
-      "Deployed the solution in several subsites, each with its data and resources stored in SharePoint lists, and maintained a Continuous\
-      Integration/Continuous Deployment pipeline for automatic and frequent code deployment.",
+      "Created projects using the Python Django Framework, implementing the model-template-view architectural pattern and utilizing SQLite as the database.",
+      "Constructed websites by employing React for the front end, utilizing functional components and hooks, and integrated NodeJS for the backend.",
+      "Engineered Microsoft 365 solutions using Power Apps and Power Automate for bulk data export and upload.",
+      "Reduced the cost of manual operations by 50% through automation.",
+      "Utilized test-driven development and code reviews to ensure the quality of the codebase."
       ],
-    date: "March 2020 – December 2021",
+    date: "March 2020 - December 2021",
     icon: "work",
   },
   {
     id: 2,
     title: "Joules To Watts Business Solutions Pvt Ltd",
-    location: "SharePoint Developer ",
+    location: "Software Developer ",
     description:
     [
-    "Developed a fully automated system to perform operations like Bulk data upload from excel to SharePoint lists, deletion\
-    from SharePoint lists, and updating of SharePoint lists from excel at the click of a button. ",
-    "Automated the tasks using Power Automate (o365 tool) and Admin Centre was set up using Power Apps (o365 tool) and \
-    reduced the cost of manual operations by 50% through automation.",
+      "Worked collaboratively with a team of developers, product owners, and testers to develop and maintain software applications. ",
+      "Developed 6 microsites using a single framework which was developed as a custom web part in SharePoint using SPFx with React and TypeScript.",
+      "Deployed the solution in 6 subsites, each with its data and resources stored in SharePoint lists, and maintained a Continuous Integration/Continuous Deployment pipeline for automatic and frequent code deployment.",
+      "Reduced the development time and cost by 30% by using a single SPFX framework for different SharePoint subsites."
     ],
-    date: "October 2019 – March 2020",
+    date: "October 2019 - March 2020",
     icon: "work",
   },
   {
@@ -120,10 +122,9 @@ export const timelineElements = [
     location: "Software Engineer/ SharePoint Developer ",
     description:
     [
-      "Developed a recruitment approval tool using HTML, CSS, Bootstrap, and JavaScript and performed the CRUD operations \
-      against storage entities using REST APIs with JSON format for data exchange.",
-      "Collaborated with team members to identify and resolve bugs, and cross-browser compatibility issues, and implement agile \
-      delivery (DevOps) pipelines."
+      "Developed a recruitment approval tool using HTML, CSS, Bootstrap, and JavaScript and performed the CRUD operations against storage entities using REST APIs with JSON format for data exchange.",
+      "Collaborated with team members to identify and resolve bugs, and cross-browser compatibility issues, and implement agile delivery (DevOps) pipelines.",
+      "Proficiently skilled in utilizing a range of development tools including VS Code, npm workspaces, ESLint, Prettier, etc."
     ],
     date: "August 2018 - October 2019",
     icon: "work",
