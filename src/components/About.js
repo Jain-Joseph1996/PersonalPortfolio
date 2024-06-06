@@ -11,7 +11,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />I am a Software Developer
           </h1>
           <p className="mb-8 leading-relaxed justify-center">
-            A web developer with 3.3 years of experience working in the Software industry currently pursuing post-graduation in Computer Software and Database Development at Lambton College Mississauga.
+            A Senior Software developer with more tan 4  years of experience working in the Software industry with a postgraduate certificate in Computer Software and Database Development at Lambton College Mississauga.
           </p>
           <div className="flex space-x-6 py-1">
           <SocialIcon bgColor = "white" url="https://www.linkedin.com/in/jain-joseph-36b22114b/" />
