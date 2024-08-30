@@ -35,15 +35,15 @@ export const projects = [
     gitlink: "https://github.com/Jain-Joseph1996/LocalBikeRentalWebsite",
     sitelink:"https://jain-joseph1996.github.io/LocalBikeRentalWebsite/"
   },
-  {
-    title: "Visual Effects Services",
-    subtitle: "Python",
-    description:
-      "Django Framework with model-template-view architectural pattern is used with SQLite as DB.",
-    image: "./outsourceservices.png",
-    gitlink: "https://github.com/Jain-Joseph1996/VisualeffectsservicesusingDjango",
-    sitelink:"https://outsourceservice.herokuapp.com/"
-  },
+  // {
+  //   title: "Visual Effects Services",
+  //   subtitle: "Python",
+  //   description:
+  //     "Django Framework with model-template-view architectural pattern is used with SQLite as DB.",
+  //   image: "./outsourceservices.png",
+  //   gitlink: "https://github.com/Jain-Joseph1996/VisualeffectsservicesusingDjango",
+  //   sitelink:"https://outsourceservice.herokuapp.com/"
+  // },
   {
     title: "Visual Effects Services",
     subtitle: "Python",
